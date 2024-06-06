@@ -1,0 +1,594 @@
+{
+  "tests": [
+    {
+      "name": "Test 1.1",
+      "setup": "",
+      "run": "timeout 5 ./boolcalc -isfull tests/funs01.in output && cmp output tests/funs01.out",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 1.2",
+      "setup": "",
+      "run": "timeout 5 ./boolcalc -cnf tests/funs01.in output.cnf && timeout 5 ./boolcalc -isfull output.cnf output && cmp output tests/funs01.out",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 1.3",
+      "setup": "",
+      "run": "timeout 5 ./boolcalc -dnf tests/funs01.in output.dnf && timeout 5 ./boolcalc -isfull output.dnf output && cmp output tests/funs01.out",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 1.4",
+      "setup": "",
+      "run": "timeout 5 ./boolcalc -zh tests/funs01.in output.zh && timeout 5 ./boolcalc -isfull output.zh output && cmp output tests/funs01.out",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 2.1",
+      "setup": "",
+      "run": "timeout 5 ./boolcalc -isfull tests/funs02.in output && cmp output tests/funs02.out",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 2.2",
+      "setup": "",
+      "run": "timeout 5 ./boolcalc -cnf tests/funs02.in output.cnf && timeout 5 ./boolcalc -isfull output.cnf output && cmp output tests/funs02.out",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 2.3",
+      "setup": "",
+      "run": "timeout 5 ./boolcalc -dnf tests/funs02.in output.dnf && timeout 5 ./boolcalc -isfull output.dnf output && cmp output tests/funs02.out",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 2.4",
+      "setup": "",
+      "run": "timeout 5 ./boolcalc -zh tests/funs02.in output.zh && timeout 5 ./boolcalc -isfull output.zh output && cmp output tests/funs02.out",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 3.1",
+      "setup": "",
+      "run": "timeout 5 ./boolcalc -isfull tests/funs03.in output && cmp output tests/funs03.out",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 3.2",
+      "setup": "",
+      "run": "timeout 5 ./boolcalc -cnf tests/funs03.in output.cnf && timeout 5 ./boolcalc -isfull output.cnf output && cmp output tests/funs03.out",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 3.3",
+      "setup": "",
+      "run": "timeout 5 ./boolcalc -dnf tests/funs03.in output.dnf && timeout 5 ./boolcalc -isfull output.dnf output && cmp output tests/funs03.out",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 3.4",
+      "setup": "",
+      "run": "timeout 5 ./boolcalc -zh tests/funs03.in output.zh && timeout 5 ./boolcalc -isfull output.zh output && cmp output tests/funs03.out",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 4.1",
+      "setup": "",
+      "run": "timeout 5 ./boolcalc -isfull tests/funs04.in output && cmp output tests/funs04.out",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 4.2",
+      "setup": "",
+      "run": "timeout 5 ./boolcalc -cnf tests/funs04.in output.cnf && timeout 5 ./boolcalc -isfull output.cnf output && cmp output tests/funs04.out",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 4.3",
+      "setup": "",
+      "run": "timeout 5 ./boolcalc -dnf tests/funs04.in output.dnf && timeout 5 ./boolcalc -isfull output.dnf output && cmp output tests/funs04.out",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 4.4",
+      "setup": "",
+      "run": "timeout 5 ./boolcalc -zh tests/funs04.in output.zh && timeout 5 ./boolcalc -isfull output.zh output && cmp output tests/funs04.out",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 5.1",
+      "setup": "",
+      "run": "timeout 5 ./boolcalc -isfull tests/funs05.in output && cmp output tests/funs05.out",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 5.2",
+      "setup": "",
+      "run": "timeout 5 ./boolcalc -cnf tests/funs05.in output.cnf && timeout 5 ./boolcalc -isfull output.cnf output && cmp output tests/funs05.out",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 5.3",
+      "setup": "",
+      "run": "timeout 5 ./boolcalc -dnf tests/funs05.in output.dnf && timeout 5 ./boolcalc -isfull output.dnf output && cmp output tests/funs05.out",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 5.4",
+      "setup": "",
+      "run": "timeout 5 ./boolcalc -zh tests/funs05.in output.zh && timeout 5 ./boolcalc -isfull output.zh output && cmp output tests/funs05.out",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 6.1",
+      "setup": "",
+      "run": "timeout 5 ./boolcalc -isfull tests/funs06.in output && cmp output tests/funs06.out",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 6.2",
+      "setup": "",
+      "run": "timeout 5 ./boolcalc -cnf tests/funs06.in output.cnf && timeout 5 ./boolcalc -isfull output.cnf output && cmp output tests/funs06.out",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 6.3",
+      "setup": "",
+      "run": "timeout 5 ./boolcalc -dnf tests/funs06.in output.dnf && timeout 5 ./boolcalc -isfull output.dnf output && cmp output tests/funs06.out",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 6.4",
+      "setup": "",
+      "run": "timeout 5 ./boolcalc -zh tests/funs06.in output.zh && timeout 5 ./boolcalc -isfull output.zh output && cmp output tests/funs06.out",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 7.1",
+      "setup": "",
+      "run": "timeout 5 ./boolcalc -isfull tests/funs07.in output && cmp output tests/funs07.out",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 7.2",
+      "setup": "",
+      "run": "timeout 5 ./boolcalc -cnf tests/funs07.in output.cnf && timeout 5 ./boolcalc -isfull output.cnf output && cmp output tests/funs07.out",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 7.3",
+      "setup": "",
+      "run": "timeout 5 ./boolcalc -dnf tests/funs07.in output.dnf && timeout 5 ./boolcalc -isfull output.dnf output && cmp output tests/funs07.out",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 7.4",
+      "setup": "",
+      "run": "timeout 5 ./boolcalc -zh tests/funs07.in output.zh && timeout 5 ./boolcalc -isfull output.zh output && cmp output tests/funs07.out",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 8.1",
+      "setup": "",
+      "run": "timeout 5 ./boolcalc -isfull tests/funs08.in output && cmp output tests/funs08.out",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 8.2",
+      "setup": "",
+      "run": "timeout 5 ./boolcalc -cnf tests/funs08.in output.cnf && timeout 5 ./boolcalc -isfull output.cnf output && cmp output tests/funs08.out",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 8.3",
+      "setup": "",
+      "run": "timeout 5 ./boolcalc -dnf tests/funs08.in output.dnf && timeout 5 ./boolcalc -isfull output.dnf output && cmp output tests/funs08.out",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 8.4",
+      "setup": "",
+      "run": "timeout 5 ./boolcalc -zh tests/funs08.in output.zh && timeout 5 ./boolcalc -isfull output.zh output && cmp output tests/funs08.out",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 9.1",
+      "setup": "",
+      "run": "timeout 5 ./boolcalc -isfull tests/funs09.in output && cmp output tests/funs09.out",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 9.2",
+      "setup": "",
+      "run": "timeout 5 ./boolcalc -cnf tests/funs09.in output.cnf && timeout 5 ./boolcalc -isfull output.cnf output && cmp output tests/funs09.out",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 9.3",
+      "setup": "",
+      "run": "timeout 5 ./boolcalc -dnf tests/funs09.in output.dnf && timeout 5 ./boolcalc -isfull output.dnf output && cmp output tests/funs09.out",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 9.4",
+      "setup": "",
+      "run": "timeout 5 ./boolcalc -zh tests/funs09.in output.zh && timeout 5 ./boolcalc -isfull output.zh output && cmp output tests/funs09.out",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 10.1",
+      "setup": "",
+      "run": "timeout 5 ./boolcalc -isfull tests/funs10.in output && cmp output tests/funs10.out",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 10.2",
+      "setup": "",
+      "run": "timeout 5 ./boolcalc -cnf tests/funs10.in output.cnf && timeout 5 ./boolcalc -isfull output.cnf output && cmp output tests/funs10.out",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 10.3",
+      "setup": "",
+      "run": "timeout 5 ./boolcalc -dnf tests/funs10.in output.dnf && timeout 5 ./boolcalc -isfull output.dnf output && cmp output tests/funs10.out",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 10.4",
+      "setup": "",
+      "run": "timeout 5 ./boolcalc -zh tests/funs10.in output.zh && timeout 5 ./boolcalc -isfull output.zh output && cmp output tests/funs10.out",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 11.1",
+      "setup": "",
+      "run": "timeout 5 ./boolcalc -isfull tests/funs11.in output && cmp output tests/funs11.out",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 11.2",
+      "setup": "",
+      "run": "timeout 5 ./boolcalc -cnf tests/funs11.in output.cnf && timeout 5 ./boolcalc -isfull output.cnf output && cmp output tests/funs11.out",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 11.3",
+      "setup": "",
+      "run": "timeout 5 ./boolcalc -dnf tests/funs11.in output.dnf && timeout 5 ./boolcalc -isfull output.dnf output && cmp output tests/funs11.out",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 11.4",
+      "setup": "",
+      "run": "timeout 5 ./boolcalc -zh tests/funs11.in output.zh && timeout 5 ./boolcalc -isfull output.zh output && cmp output tests/funs11.out",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 12.1",
+      "setup": "",
+      "run": "timeout 5 ./boolcalc -isfull tests/funs12.in output && cmp output tests/funs12.out",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 12.2",
+      "setup": "",
+      "run": "timeout 5 ./boolcalc -cnf tests/funs12.in output.cnf && timeout 5 ./boolcalc -isfull output.cnf output && cmp output tests/funs12.out",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 12.3",
+      "setup": "",
+      "run": "timeout 5 ./boolcalc -dnf tests/funs12.in output.dnf && timeout 5 ./boolcalc -isfull output.dnf output && cmp output tests/funs12.out",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 12.4",
+      "setup": "",
+      "run": "timeout 5 ./boolcalc -zh tests/funs12.in output.zh && timeout 5 ./boolcalc -isfull output.zh output && cmp output tests/funs12.out",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 13.1",
+      "setup": "",
+      "run": "timeout 5 ./boolcalc -isfull tests/funs13.in output && cmp output tests/funs13.out",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 13.2",
+      "setup": "",
+      "run": "timeout 5 ./boolcalc -cnf tests/funs13.in output.cnf && timeout 5 ./boolcalc -isfull output.cnf output && cmp output tests/funs13.out",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 13.3",
+      "setup": "",
+      "run": "timeout 5 ./boolcalc -dnf tests/funs13.in output.dnf && timeout 5 ./boolcalc -isfull output.dnf output && cmp output tests/funs13.out",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 13.4",
+      "setup": "",
+      "run": "timeout 5 ./boolcalc -zh tests/funs13.in output.zh && timeout 5 ./boolcalc -isfull output.zh output && cmp output tests/funs13.out",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 14.1",
+      "setup": "",
+      "run": "timeout 5 ./boolcalc -isfull tests/funs14.in output && cmp output tests/funs14.out",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 14.2",
+      "setup": "",
+      "run": "timeout 5 ./boolcalc -cnf tests/funs14.in output.cnf && timeout 5 ./boolcalc -isfull output.cnf output && cmp output tests/funs14.out",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 14.3",
+      "setup": "",
+      "run": "timeout 5 ./boolcalc -dnf tests/funs14.in output.dnf && timeout 5 ./boolcalc -isfull output.dnf output && cmp output tests/funs14.out",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 14.4",
+      "setup": "",
+      "run": "timeout 5 ./boolcalc -zh tests/funs14.in output.zh && timeout 5 ./boolcalc -isfull output.zh output && cmp output tests/funs14.out",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 15",
+      "setup": "",
+      "run": "timeout 5 ./boolcalc -isfull tests/funs15.in output && cmp output tests/funs15.out",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 16",
+      "setup": "",
+      "run": "timeout 5 ./boolcalc -isfull tests/funs16.in output && cmp output tests/funs16.out",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 17",
+      "setup": "",
+      "run": "timeout 5 ./boolcalc -isfull tests/funs17.in output && cmp output tests/funs17.out",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    }
+  ]
+}
